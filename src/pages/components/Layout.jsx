@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
+import Footer from './Footer'
 
 const Layout = ({children}) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({children}) => {
         <div className="bg-gray-900">
             {children}
         </div>
+        <Footer />
     </>
   )
 }
