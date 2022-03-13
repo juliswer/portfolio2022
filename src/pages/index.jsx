@@ -54,10 +54,10 @@ export default function Home() {
       </section> */}
       <Header />
       <div className="container mx-auto">
-        {/* <Content /> */}
-        <FaqsDetail />
+        <Content />
         <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
         <Timeline />
+        <FaqsDetail />
       </div>
     </div>
   );
