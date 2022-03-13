@@ -1,12 +1,14 @@
 import React from "react";
-import {AiOutlinePaperClip} from 'react-icons/ai'
+import { AiOutlinePaperClip } from "react-icons/ai";
 
 const Timeline = () => {
   return (
     <div className="mt-10">
-      <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
+      <h4 className="text-2xl text-white mb-4 font-bold">
+        Mis trabajos y proyectos personales:{" "}
+      </h4>
       <ol className="items-center sm:flex">
-        <li className="relative mb-6 sm:mb-0">
+      <li className="relative mb-6 sm:mb-0">
           <div className="flex items-center">
             <div className="flex z-10 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
               <svg
@@ -25,18 +27,24 @@ const Timeline = () => {
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div className="mt-3 sm:pr-8">
-            <div className="flex gap-12 justify-evenly">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Flowbite Library v1.0.0
-                </h3>
-                <a href="" className="border rounded-full p-1 bg-gray-600 text-white"><AiOutlinePaperClip /></a>
+            <div className="flex justify-between">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                MEVN - Crud (Typescript)
+              </h3>
+              <a
+                href="https://github.com/juliswer/mevn-typescript-crud"
+                target="_blank"
+                rel="noreferrer"
+                className="border rounded-full p-1 bg-gray-600 text-white"
+              >
+                <AiOutlinePaperClip />
+              </a>
             </div>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 2, 2021
+              December, 2021
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+              I made a CRUD using Vue with Typescript, and Node.js (with typescript too).
             </p>
           </div>
         </li>
@@ -59,15 +67,24 @@ const Timeline = () => {
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div className="mt-3 sm:pr-8">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.2.0
-            </h3>
+            <div className="flex justify-between">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Canalizados App
+              </h3>
+              <a
+                href="https://github.com/juliswer/canalizados"
+                target="_blank"
+                rel="noreferrer"
+                className="border rounded-full p-1 bg-gray-600 text-white"
+              >
+                <AiOutlinePaperClip />
+              </a>
+            </div>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 23, 2021
+              November, 2021.
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+              On this work I used Nuxt.js to develop this app.
             </p>
           </div>
         </li>
@@ -90,15 +107,24 @@ const Timeline = () => {
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div className="mt-3 sm:pr-8">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.2.0
-            </h3>
+            <div className="flex justify-between">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Vanimals App
+              </h3>
+              <a
+                href="https://vanimals.co"
+                target="_blank"
+                rel="noreferrer"
+                className="border rounded-full p-1 bg-gray-600 text-white"
+              >
+                <AiOutlinePaperClip />
+              </a>
+            </div>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 23, 2021
+              December, 2021.
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+              On this work I used Three.js on Next.js to make 3d Models.
             </p>
           </div>
         </li>
@@ -121,15 +147,24 @@ const Timeline = () => {
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div className="mt-3 sm:pr-8">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Flowbite Library v1.2.0
-            </h3>
+            <div className="flex justify-between">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                ShareMe App
+              </h3>
+              <a
+                href="https://sharemejuliswer.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="border rounded-full p-1 bg-gray-600 text-white"
+              >
+                <AiOutlinePaperClip />
+              </a>
+            </div>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 23, 2021
+              March, 2022
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-              Get started with dozens of web components and interactive
-              elements.
+              On this project I used React and Node.js (with Sanity).
             </p>
           </div>
         </li>

@@ -87,7 +87,7 @@ const About = () => {
             </div>
             <div>
               <img
-                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                className="object-cover w-full h-56 rounded-lg shadow-lg sm:h-96"
                 src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 alt=""
               />
