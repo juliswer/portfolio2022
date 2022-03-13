@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a className="flex items-center hover:cursor-pointer">
-            <Link href="/">
+            <Link href="/" passHref>
               <div className="flex align-items-center">
                 <Image src={logo} alt="Julian Logo" width={100} height={60} />
                 <span
