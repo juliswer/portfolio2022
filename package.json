@@ -9,12 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "file-saver": "^2.0.5",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.3.1",
-    "react-pdf": "^5.7.1"
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
