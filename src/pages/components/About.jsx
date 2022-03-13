@@ -15,17 +15,6 @@ const About = () => {
                 fill="currentColor"
                 className="absolute top-0 left-0 z-0 w-32 -mt-8 -ml-16 text-blue-gray-100 lg:w-32 lg:-mt-12"
               >
-                <defs>
-                  <pattern
-                    id="d06ca312-d4ed-465f-ad18-fb0c0f92b6f1"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7" />
-                  </pattern>
-                </defs>
                 <rect
                   fill="url(#d06ca312-d4ed-465f-ad18-fb0c0f92b6f1)"
                   width="52"

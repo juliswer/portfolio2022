@@ -6,7 +6,7 @@ const Presentation = () => {
 
   return (
     <div className="dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border rounded-xl bg-gray-200 shadow-xl">
-      <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
+      <p className="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase sm:text-center">
         {result}
       </p>
       <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl">
@@ -38,7 +38,7 @@ const Presentation = () => {
           >
             Vasile Melinte
           </a>
-          <p className="text-sm font-medium leading-4 text-gray-600">Author</p>
+          <p className="text-sm font-medium leading-4 text-gray-600">Julian Swerdlin</p>
         </div>
       </div>
       <div className="sm:text-center">
