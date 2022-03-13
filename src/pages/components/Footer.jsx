@@ -86,7 +86,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.twitter.com/juliswer"
+              href="https://www.twitter.com/juliswer1"
               target="_blank"
               rel="noreferrer"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
