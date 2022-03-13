@@ -1,10 +1,12 @@
 import Timeline from './components/Timeline'
 import Header from './components/Header'
+import Content from './components/Content';
+import FaqsDetail from './components/Faqs';
 
 export default function Home() {
 
   return (
-    <div className="h-screen">
+    <div>
       {/* <header>
         <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
           <a href="javascript:void(0)">
@@ -52,6 +54,8 @@ export default function Home() {
       </section> */}
       <Header />
       <div className="container mx-auto">
+        {/* <Content /> */}
+        <FaqsDetail />
         <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
         <Timeline />
       </div>

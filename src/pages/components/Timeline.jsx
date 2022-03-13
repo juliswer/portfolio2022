@@ -3,7 +3,7 @@ import {AiOutlinePaperClip} from 'react-icons/ai'
 
 const Timeline = () => {
   return (
-    <div>
+    <div style={{paddingBottom: '150px'}}>
       <ol className="items-center sm:flex">
         <li className="relative mb-6 sm:mb-0">
           <div className="flex items-center">
