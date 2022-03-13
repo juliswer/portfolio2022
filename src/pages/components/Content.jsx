@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Content = () => {
   return (
@@ -12,20 +12,24 @@ const Content = () => {
           </div>
           <div className="lg:w-1/2">
             <p className="mb-4 text-base text-white">
-              Well, Even I don&apos;t have so much time developing, I studied so hard, you can check it on my contributtions on Github.<br />
-              I really love what I do, and I want to keep doing it for so much time...
+              Well, Even I don&apos;t have so much time developing, I studied so
+              hard, you can check it on my contributtions on Github.
+              <br />I really love what I do, and I want to keep doing it for so
+              much time.
             </p>
             <a
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-white"
+              href="mailto:julianswer36@gmail.com"
+              className="px-7 py-3 w-full bg-white text-gray-800 text-center rounded-md shadow-md block sm:w-auto"
+              target="_blank"
+              rel="noreferrer"
             >
-              Learn more
+              Contact
             </a>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;
