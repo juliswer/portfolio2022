@@ -1,10 +1,12 @@
 import React from "react";
+import { AiOutlinePushpin } from "react-icons/ai";
+import { MdWorkOutline } from "react-icons/md";
 
 const About = () => {
   return (
     <div>
       <div className="mt-7 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border rounded-xl bg-gray-200 shadow-xl">
-      <h1 className="text-white font-bold text-3xl mb-2">About My Work: </h1>
+        <h1 className="text-white font-bold text-3xl mb-2">About My Work: </h1>
         <div className="">
           <div className=" z-0 w-full h-full lg:w-3/4" />
         </div>
@@ -25,51 +27,31 @@ const About = () => {
                 </svg>
                 <div className="relative">
                   <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
-                    <svg
-                      className="w-8 h-8 text-teal-900"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
+                    <AiOutlinePushpin
+                      style={{ color: "#fff", height: "30px", width: "30px" }}
+                    />
                   </div>
                   <h6 className="mb-2 font-semibold leading-5 text-white">
-                    The quick, brown fox jumps over a lazy dog
+                    How fast Am I?
                   </h6>
                   <p className="text-sm text-gray-400">
-                    Baseball ipsum dolor sit amet cellar rubber win hack tossed.
-                    Slugging catcher slide bench league.
+                    It depends of the project. Sometimes there are projects thar
+                    requires some more time, but in most cases it&apos;s fast.
                   </p>
                 </div>
               </div>
               <div>
                 <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
-                  <svg
-                    className="w-8 h-8 text-teal-900"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="#ccc"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <MdWorkOutline
+                    style={{ color: "#fff", height: "30px", width: "30px" }}
+                  />
                 </div>
                 <h6 className="mb-2 font-semibold leading-5 text-white">
-                  A flower in my garden, a mystery
+                  Are Engaged with your work?
                 </h6>
                 <p className="text-sm text-gray-400">
-                  They urge you to put down your sword and come join the
-                  winners.
+                  Absolutely yes. When I accept a work, I&apos;m totally engaged
+                  with it, and I don&apos;t stop until get it.
                 </p>
               </div>
               <div>
