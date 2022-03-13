@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import BGHero from "../../assets/backgroundHero.png";
+import Image from "next/image";
 
 const Header = () => {
   const typeTarget = useRef(null);
@@ -22,10 +24,22 @@ const Header = () => {
   }, []);
 
   return (
+    <div className="relative bg-blue-900">
       <div className="pt-10 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
-        <div className="space-y-4 flex-1 sm:text-center lg:text-left">
+        <svg
+          className="absolute left-0"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#111827"
+            fillOpacity="1"
+            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+        <div className="space-y-4 flex-1 sm:text-center lg:text-left relative">
           <h1 className="text-white font-bold text-4xl xl:text-5xl">
-            One page Template for {" "} <br />
+            One page Template for <br />
             <span ref={typeTarget} className="font-bold text-amber-500" />
           </h1>
           <p className="text-gray-300 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
@@ -49,11 +63,15 @@ const Header = () => {
           </div>
         </div>
         <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
-          <img
-            src="https://miro.medium.com/max/1400/1*9m-WDdL_ji01bGbjEnutEw.gif"
-            className="w-full mx-auto sm:w-10/12  lg:w-full rounded-full"
+          <Image
+            src={BGHero}
+            alt="background"
+            className="w-full mx-auto sm:w-10/12  lg:w-full"
+            width={300}
+            height={300}
           />
         </div>
+      </div>
     </div>
   );
 };
