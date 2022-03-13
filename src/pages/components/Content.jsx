@@ -7,20 +7,13 @@ const Content = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
             <h2 className="font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none text-white">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-white">
-                a lazy dog
-              </span>
+              How many time I have developing apps?
             </h2>
           </div>
           <div className="lg:w-1/2">
             <p className="mb-4 text-base text-white">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
+              Well, Even I don&apos;t have so much time developing, I studied so hard, you can check it on my contributtions on Github.<br />
+              I really love what I do, and I want to keep doing it for so much time...
             </p>
             <a
               aria-label=""
