@@ -1,20 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../../assets/logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
   return (
     <div className="bg-blue-900">
       <footer className="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <a
-            href="https://flowbite.com"
-            className="flex items-center mb-4 sm:mb-0"
-          >
-            <img
-              src="/docs/images/logo.svg"
-              className="mr-3 h-8"
-              alt="Flowbite Logo"
+          <a href="https://flowbite.com" className="flex items-center">
+            <Image
+              src={Logo}
+              width={50}
+              height={30}
+              alt="Julian Swerdlin Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Flowbite
@@ -22,24 +21,32 @@ const Footer = () => {
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
-                About
-              </a>
+              <Link to="aboutme" smooth={true}>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                  About Me
+                </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6">
-                Privacy Policy
-              </a>
+              <Link to="mywork" smooth={true}>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                  My Work
+                </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
-                Licensing
-              </a>
+              <Link to="history" smooth={true}>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                  History
+                </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
-                Contact
-              </a>
+              <Link to="faqs" smooth={true}>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                  FAQs
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -48,7 +55,7 @@ const Footer = () => {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
             <a href="https://flowbite.com" className="hover:underline">
-              Flowbite™
+              Julian Swerdlin™
             </a>
             . All Rights Reserved.
           </span>

@@ -72,7 +72,7 @@ const FaqsDetail = () => {
     ]
   
     return (
-        <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 lg:px-8" style={{paddingBottom: '150px'}}>
+        <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 lg:px-8" style={{paddingBottom: '150px'}} id="faqs">
             <div className="space-y-3 text-center">
                 <h1 className="text-3xl text-gray-800 font-semibold">
                     Frequently Asked Questions

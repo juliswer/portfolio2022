@@ -7,7 +7,7 @@ const Presentation = () => {
   const result = date.toDateString().slice(4);
 
   return (
-    <div>
+    <div id="aboutme">
       <div className="dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border rounded-xl bg-gray-200 shadow-xl">
         <p className="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase sm:text-center">
           {result}

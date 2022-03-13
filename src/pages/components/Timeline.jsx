@@ -3,7 +3,7 @@ import { AiOutlinePaperClip } from "react-icons/ai";
 
 const Timeline = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="history">
       <h4 className="text-2xl text-white mb-4 font-bold">
         My works and personal projects:{" "}
       </h4>
