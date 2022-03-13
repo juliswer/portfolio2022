@@ -35,26 +35,21 @@ const Header = () => {
         </svg>
         <div className="space-y-4 flex-1 sm:text-center lg:text-left relative">
           <h1 className="text-white font-bold text-4xl xl:text-5xl">
-            One page Template for <br />
-            <span ref={typeTarget} className="font-bold text-amber-500" />
+            Are you looking for a <br />
+            <span ref={typeTarget} className="font-bold text-amber-500" />?
           </h1>
           <p className="text-gray-300 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum
+            Hi! I&apos;m Julian, a Fullstack and Mobile Developer from Argentina.
+            I have experience working with different technologies, like Vue, Nuxt.js, React, Next.js, Three.js, and others.
           </p>
           <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
             <a
-              href="javascript:void(0)"
+              href="mailto:julianswer36@gmail.com"
               className="px-7 py-3 w-full bg-white text-gray-800 text-center rounded-md shadow-md block sm:w-auto"
+              target="_blank"
+              rel="noreferrer"
             >
-              Get started
-            </a>
-            <a
-              href="javascript:void(0)"
-              className="px-7 py-3 w-full bg-gray-700 text-gray-200 text-center rounded-md block sm:w-auto"
-            >
-              Try it out
+              Contact
             </a>
           </div>
         </div>
