@@ -4,6 +4,7 @@ import Content from './components/Content';
 import FaqsDetail from './components/Faqs';
 import Presentation from './components/Presentation';
 import Cards from './components/Cards';
+import About from './components/About';
 
 export default function Home() {
 
@@ -57,6 +58,7 @@ export default function Home() {
       <Header />
       <div className="container mx-auto">
         <Presentation />
+        <About />
         <Cards />
         <Content />
         <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
