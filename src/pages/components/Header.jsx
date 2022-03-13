@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <div className="relative">
       <img
-        src="https://images.pexels.com/photos/3228766/pexels-photo-3228766.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-        className="absolute inset-0 object-cover w-full h-full"
+        src="https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        className="absolute inset-0 object-cover w-full h-full bg-blend-multiply"
         alt=""
       />
-      <div className="relative bg-opacity-75 bg-deep-purple-accent-700">
+      <div className="relative bg-opacity-75 bg-black">
         <svg
           className=" absolute inset-x-0 bottom-0 text-white"
           style={{position: 'absolute', top: '41vh'}}
