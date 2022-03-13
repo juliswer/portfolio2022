@@ -1,53 +1,58 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../../assets/logo.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
 import { SiUpwork } from "react-icons/si";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="bg-blue-900">
       <footer className="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-800">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <a href="https://flowbite.com" className="flex items-center">
-            <Image
-              src={Logo}
-              width={50}
-              height={30}
-              alt="Julian Swerdlin Logo"
-            />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Julian Swerdlin
-            </span>
+          <a href="#" className="flex items-center">
+            <Link href="/" passHref>
+              <div>
+                <Image
+                  src={Logo}
+                  width={50}
+                  height={30}
+                  alt="Julian Swerdlin Logo"
+                />
+                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                  Julian Swerdlin
+                </span>
+              </div>
+            </Link>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <Link to="aboutme" smooth={true}>
+              <LinkScroll to="aboutme" smooth={true}>
                 <a href="#" className="mr-4 hover:underline md:mr-6">
                   About Me
                 </a>
-              </Link>
+              </LinkScroll>
             </li>
             <li>
-              <Link to="mywork" smooth={true}>
+              <LinkScroll to="mywork" smooth={true}>
                 <a href="#" className="mr-4 hover:underline md:mr-6 ">
                   My Work
                 </a>
-              </Link>
+              </LinkScroll>
             </li>
             <li>
-              <Link to="history" smooth={true}>
+              <LinkScroll to="history" smooth={true}>
                 <a href="#" className="mr-4 hover:underline md:mr-6 ">
                   History
                 </a>
-              </Link>
+              </LinkScroll>
             </li>
             <li>
-              <Link to="faqs" smooth={true}>
+              <LinkScroll to="faqs" smooth={true}>
                 <a href="#" className="mr-4 hover:underline md:mr-6 ">
                   FAQs
                 </a>
-              </Link>
+              </LinkScroll>
             </li>
           </ul>
         </div>
@@ -83,7 +88,7 @@ const Footer = () => {
             <a
               href="https://www.twitter.com/juliswer"
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -137,9 +142,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <SiUpwork
-                className="mr-2 -ml-1 w-4 h-4"
-              />
+              <SiUpwork className="mr-2 -ml-1 w-4 h-4" />
             </a>
           </div>
         </div>

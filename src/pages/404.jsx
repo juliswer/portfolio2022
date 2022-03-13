@@ -23,13 +23,13 @@ const ErrorPage = () => {
             Oooopss...
           </h1>
           <p className="text-xl container mx-auto text-center text-white">
-            Parece que la página que buscas todavia no la he creado 😥
+            Maybe the page you are searching is not developed yet, come back soon 😥
           </p>
         </div>
       </div>
       <div className="grid place-content-center mt-3">
         <button className="py-4 px-4 text-white duration-100 bg-indigo-600 rounded-md shadow focus:shadow-none ring-offset-2 ring-indigo-600 focus:ring-2">
-          <Link href="/">Volver al inicio</Link>
+          <Link href="/">Go back Home</Link>
         </button>
       </div>
     </div>
