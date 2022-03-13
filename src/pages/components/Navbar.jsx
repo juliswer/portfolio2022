@@ -3,7 +3,6 @@ import logo from "../../assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
-import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 
 const Navbar = () => {
   return (

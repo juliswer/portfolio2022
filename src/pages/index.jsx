@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Portfolio - Julian Swerdlin &copy;</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="../assets/logo.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <div className="container mx-auto">
