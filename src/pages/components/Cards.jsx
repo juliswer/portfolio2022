@@ -27,7 +27,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div>
+    <div className="my-10 mb-10">
       <h2 className="text-white font-bold text-3xl mt-3">
         Some Important Links:
       </h2>{" "}

@@ -58,8 +58,8 @@ export default function Home() {
       <Header />
       <div className="container mx-auto">
         <Presentation />
-        <About />
         <Cards />
+        <About />
         <Content />
         <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
         <Timeline />
