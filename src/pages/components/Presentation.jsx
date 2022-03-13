@@ -1,4 +1,6 @@
 import React from "react";
+import personalPic from '../../assets/cv.jpg';
+import Image from 'next/image';
 
 const Presentation = () => {
   const date = new Date();
@@ -35,20 +37,16 @@ const Presentation = () => {
         </div>
         <div className="mb-10 sm:text-center">
           <a aria-label="Author" className="inline-block mb-1">
-            <img
+            <Image
               alt="avatar"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src={personalPic}
+              width={70}
+              height={70}
               className="object-cover w-10 h-10 rounded-full shadow-sm"
             />
           </a>
           <div>
-            <a
-              aria-label="Author"
-              className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Vasile Melinte
-            </a>
-            <p className="text-sm font-bold leading-4 text-white">
+            <p className="mt-1 text-sm font-bold leading-4 text-white">
               Julian Swerdlin
             </p>
           </div>
