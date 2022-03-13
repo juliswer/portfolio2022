@@ -1,6 +1,8 @@
 import React from "react";
 import { AiOutlinePushpin } from "react-icons/ai";
 import { MdWorkOutline } from "react-icons/md";
+import { BiMoney } from "react-icons/bi";
+import { BsPeople } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -47,7 +49,7 @@ const About = () => {
                   />
                 </div>
                 <h6 className="mb-2 font-semibold leading-5 text-white">
-                  Are Engaged with your work?
+                  Am I Engaged with my work?
                 </h6>
                 <p className="text-sm text-gray-400">
                   Absolutely yes. When I accept a work, I&apos;m totally engaged
@@ -56,50 +58,30 @@ const About = () => {
               </div>
               <div>
                 <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
-                  <svg
-                    className="w-8 h-8 text-teal-900"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <BiMoney
+                    style={{ color: "#fff", height: "30px", width: "30px" }}
+                  />
                 </div>
                 <h6 className="mb-2 font-semibold leading-5 text-white">
-                  Skate ipsum dolor sit amet, alley oop
+                  Is my work expensive?
                 </h6>
                 <p className="text-sm text-gray-400">
-                  If one examines precultural libertarianism, one is faced with
-                  a choice: either accept rationalism.
+                  Not really. I think that my work is really cheap, compared to
+                  others.
                 </p>
               </div>
               <div>
                 <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
-                  <svg
-                    className="w-8 h-8 text-teal-900"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                  <BsPeople
+                    style={{ color: "#fff", height: "30px", width: "30px" }}
+                  />
                 </div>
                 <h6 className="mb-2 font-semibold leading-5 text-white">
-                  The first mate and his Skipper too will
+                  Do I work alone?
                 </h6>
                 <p className="text-sm text-gray-400">
-                  Those options are already baked in with this model shoot me an
-                  email clear blue water.
+                  Yes, but I don&apos; have any problem with work with another
+                  people. I really love it.
                 </p>
               </div>
             </div>
