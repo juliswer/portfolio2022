@@ -15,9 +15,8 @@ export default function Home() {
         <Presentation />
         <Cards />
         <About />
-        <Content />
-        <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
         <Timeline />
+        <Content />
         <Faqs />
       </div>
     </div>
