@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="relative bg-blue-900 mb-10">
+    <div className="bg-blue-900 mb-10">
       <div className="pt-10 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
         <svg className="absolute left-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

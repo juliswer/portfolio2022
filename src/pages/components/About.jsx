@@ -5,8 +5,8 @@ const About = () => {
     <div>
       <div className="mt-7 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 border rounded-xl bg-gray-200 shadow-xl">
       <h1 className="text-white font-bold text-3xl mb-2">About My Work: </h1>
-        <div className="absolute inset-0">
-          <div className="absolute inset-y-0 z-0 w-full h-full lg:w-3/4" />
+        <div className="">
+          <div className=" z-0 w-full h-full lg:w-3/4" />
         </div>
         <div className="relative">
           <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
