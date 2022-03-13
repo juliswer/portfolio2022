@@ -17,7 +17,6 @@ const Footer = () => {
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
             <a
-              href="/"
               aria-label="Go home"
               title="Company"
               className="inline-flex items-center"
@@ -60,7 +59,6 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     News
@@ -68,7 +66,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     World
@@ -76,7 +73,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Games
@@ -84,7 +80,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     References
@@ -99,7 +94,6 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Web
@@ -107,7 +101,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     eCommerce
@@ -115,7 +108,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Business
@@ -123,7 +115,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Entertainment
@@ -131,7 +122,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Portfolio
@@ -167,7 +157,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Educational
@@ -175,7 +164,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Projects
@@ -190,7 +179,7 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Infopreneur
@@ -198,7 +187,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Personal
@@ -206,7 +195,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Wiki
@@ -214,7 +203,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    
                     className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                   >
                     Forum
@@ -230,7 +219,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
-              href="/"
+              
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -238,7 +227,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
             >
               <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -247,7 +236,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              
               className="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

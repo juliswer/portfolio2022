@@ -140,7 +140,7 @@ const Header = () => {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#111827"
-              fill-opacity="1"
+              fillOpacity="1"
               d="M0,192L48,192C96,192,192,192,288,202.7C384,213,480,235,576,229.3C672,224,768,192,864,181.3C960,171,1056,181,1152,176C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             ></path>
           </svg>
@@ -169,7 +169,6 @@ const Header = () => {
                 className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
               />
               <a
-                href="/"
                 className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md md:w-auto bg-white hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Subscribe
@@ -180,7 +179,6 @@ const Header = () => {
               accusantium doloremque.
             </p>
             <a
-              href="/"
               aria-label="Scroll down"
               className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
             >

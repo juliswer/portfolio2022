@@ -9,7 +9,6 @@ const Presentation = () => {
       <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl">
         <div className="mb-4">
           <a
-            href="/"
             aria-label="Article"
             className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-black transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl"
           >
@@ -22,7 +21,7 @@ const Presentation = () => {
         </p>
       </div>
       <div className="mb-10 sm:text-center">
-        <a href="/" aria-label="Author" className="inline-block mb-1">
+        <a aria-label="Author" className="inline-block mb-1">
           <img
             alt="avatar"
             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -31,7 +30,6 @@ const Presentation = () => {
         </a>
         <div>
           <a
-            href="/"
             aria-label="Author"
             className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
           >
@@ -42,7 +40,6 @@ const Presentation = () => {
       </div>
       <div className="sm:text-center">
         <a
-          href="/"
           aria-label=""
           className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
         >
