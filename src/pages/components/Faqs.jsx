@@ -18,7 +18,7 @@ const Faqs = (props) => {
             key={idx}
             onClick={handleOpenAnswer}
         >
-            <h4 className="cursor-pointer pb-5 flex items-center justify-between text-lg text-gray-700 font-medium">
+            <h4 className="cursor-pointer pb-5 flex items-center justify-between text-lg text-gray-200 font-medium">
                 {faqsList.q}
                 {
                     state ? (
@@ -37,7 +37,7 @@ const Faqs = (props) => {
                 style={state ? {height: answerH } : {height: '0px'}}
             >
                 <div>
-                    <p className="text-gray-500">
+                    <p className="text-gray-200">
                         {faqsList.a}
                     </p>
                 </div>
@@ -50,34 +50,30 @@ const FaqsDetail = () => {
 
     const faqsList = [
         {
-            q: "What are some random questions to ask?",
-            a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question."
+            q: "Am I trustworthy?",
+            a: "Of course. When you give me the information of your App, it's 110% safe and secure. I will never sell your data to anyone."
         },
         {
-            q: "Do you include common questions?",
-            a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator."
+            q: "What is the price?",
+            a: "It depends of the project, but we can have a conference and talk about it if you want."
         },
         {
-            q: "Can I use this for 21 questions?",
-            a: "Yes! there are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated."
+            q: "How can I reach you?",
+            a: "Well, It is really simple. You have my email at the top and bottom of the page. If you send me an Email I will answer you as soon as possible."
         },
         {
-            q: "Are these questions for girls or for boys?",
-            a: "The questions in this generator are gender neutral and can be used to ask either male of females (or any other gender the person identifies with)."
-        },
-        {
-            q: "What do you wish you had more talent doing?",
-            a: "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires."
+            q: "Have you ever work with a team?",
+            a: "The most of the time I worked, it was as a team of 3 people or more people. But I also work alone if I need it."
         }
     ]
   
     return (
         <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 lg:px-8" style={{paddingBottom: '150px'}} id="faqs">
             <div className="space-y-3 text-center">
-                <h1 className="text-3xl text-gray-800 font-semibold">
+                <h1 className="text-3xl text-white font-bold">
                     Frequently Asked Questions
                 </h1>
-                <p className="text-gray-600 max-w-lg mx-auto text-lg">
+                <p className="text-gray-400 max-w-lg mx-auto text-lg">
                     Answered all frequently asked questions, Still confused? feel free to contact me.
                 </p>
             </div>
