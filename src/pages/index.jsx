@@ -4,7 +4,7 @@ import Header from './components/Header'
 export default function Home() {
 
   return (
-    <div className="h-screen container mx-auto w-screen">
+    <div className="h-screen">
       {/* <header>
         <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
           <a href="javascript:void(0)">
@@ -50,8 +50,11 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
-      <Timeline />
+      <Header />
+      <div className="container mx-auto">
+        <h4 className="text-2xl text-white mb-4 font-bold">Mis trabajos y proyectos personales: </h4>
+        <Timeline />
+      </div>
     </div>
   );
 }
