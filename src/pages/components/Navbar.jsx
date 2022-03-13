@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
+import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 
 const Navbar = () => {
   return (
@@ -67,12 +68,15 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button
-            type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Download CV
-          </button>
+            <a
+              href="https://drive.google.com/file/d/1sfWHCH9wUOS99EFv9RtD8MZIsZkdcSqi/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Download CV
+            </a>
         </div>
       </nav>
     </div>
