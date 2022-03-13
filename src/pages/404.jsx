@@ -29,7 +29,7 @@ const ErrorPage = () => {
       </div>
       <div className="grid place-content-center mt-3">
         <button className="py-4 px-4 text-white duration-100 bg-indigo-600 rounded-md shadow focus:shadow-none ring-offset-2 ring-indigo-600 focus:ring-2">
-          <Link href="/">Go back Home</Link>
+          <Link href="/">Go back Home!</Link>
         </button>
       </div>
     </div>
