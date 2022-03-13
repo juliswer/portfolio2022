@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo_dev-inc.png";
 import Image from "next/image";
 const Navbar = () => {
   return (
@@ -9,12 +9,12 @@ const Navbar = () => {
           <a className="flex items-center">
             <Image
               src={logo}
-              className="mr-3 h-6 sm:h-10 mr-10"
+              className="mr-3 h-6 sm:h-10"
               alt="Julian Logo"
-              widht={10}
+              width={90}
               height={50}
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white ml-4">
               Julian Swerdlin
             </span>
           </a>
