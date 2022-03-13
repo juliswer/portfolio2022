@@ -39,10 +39,10 @@ const About = () => {
                       />
                     </svg>
                   </div>
-                  <h6 className="mb-2 font-semibold leading-5">
+                  <h6 className="mb-2 font-semibold leading-5 text-white">
                     The quick, brown fox jumps over a lazy dog
                   </h6>
-                  <p className="text-sm text-gray-900">
+                  <p className="text-sm text-gray-400">
                     Baseball ipsum dolor sit amet cellar rubber win hack tossed.
                     Slugging catcher slide bench league.
                   </p>
@@ -64,10 +64,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
+                <h6 className="mb-2 font-semibold leading-5 text-white">
                   A flower in my garden, a mystery
                 </h6>
-                <p className="text-sm text-gray-900">
+                <p className="text-sm text-gray-400">
                   They urge you to put down your sword and come join the
                   winners.
                 </p>
@@ -88,10 +88,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
+                <h6 className="mb-2 font-semibold leading-5 text-white">
                   Skate ipsum dolor sit amet, alley oop
                 </h6>
-                <p className="text-sm text-gray-900">
+                <p className="text-sm text-gray-400">
                   If one examines precultural libertarianism, one is faced with
                   a choice: either accept rationalism.
                 </p>
@@ -112,10 +112,10 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">
+                <h6 className="mb-2 font-semibold leading-5 text-white">
                   The first mate and his Skipper too will
                 </h6>
-                <p className="text-sm text-gray-900">
+                <p className="text-sm text-gray-400">
                   Those options are already baked in with this model shoot me an
                   email clear blue water.
                 </p>
