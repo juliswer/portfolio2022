@@ -16,12 +16,21 @@ const Presentation = () => {
               aria-label="Article"
               className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-white transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl"
             >
-              The quick, brown fox jumps over a lazy dog
+              Who Am I?
             </a>
           </div>
           <p className="text-base text-gray-200 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            I&apos;m a Fullstack and Mobile Developer from Argentina. <br />I
+            have learned everything online, watching videos, making tutorials
+            and courses. I have a diploma on Data Science, and right now
+            I&apos;m doing a Mobile Apps Course (with Kotlin). For sure
+            It&apos;s on my{" "}
+            <a
+              href="https://www.github.com/juliswer"
+              className="underline text-blue-500"
+            >
+              Github.
+            </a>
           </p>
         </div>
         <div className="mb-10 sm:text-center">
