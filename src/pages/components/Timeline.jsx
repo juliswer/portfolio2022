@@ -5,7 +5,7 @@ const Timeline = () => {
   return (
     <div className="mt-10">
       <h4 className="text-2xl text-white mb-4 font-bold">
-        Mis trabajos y proyectos personales:{" "}
+        My works and personal projects:{" "}
       </h4>
       <ol className="items-center sm:flex">
         <li className="relative mb-6 sm:mb-0">
@@ -81,7 +81,7 @@ const Timeline = () => {
               </a>
             </div>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              December, 2021
+              December, 2021.
             </time>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               I made a CRUD using Vue with Typescript, and Node.js (with
